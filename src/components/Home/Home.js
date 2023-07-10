@@ -703,7 +703,10 @@ export default function Home() {
                     <div className='col py-4 '>
                       <div className='row '>
                         <div className='col-12'>
-                          <h2 className='text-center pb-4'>WITHDRAWAL</h2>
+                          <h2 className='text-center pb-4'
+                           style={{
+                              backgroundColor: 'rgb(50 205 50)'
+                         }}>WITHDRAWAL</h2>
                         </div>
                         <div className='col-12 '>
                           <p
@@ -723,7 +726,11 @@ export default function Home() {
                       </div>
                       <div className='row  mx-2 '>
                         <div className='col pt-2'>
-                          <label htmlFor='input ' className='pb-2'>
+                          <label htmlFor='input ' className='pb-2'
+                          style={{
+                            backgroundColor: 'rgb(50 205 50)'
+                       }}
+                          >
                             {' '}
                             Enter USD Amount
                           </label>
